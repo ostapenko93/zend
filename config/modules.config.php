@@ -15,4 +15,9 @@ return [
     'Zend\Router',
     'Zend\Validator',
     'Application',
+    'Bus',
+    'Car',
+    'Electro',
+    'Freight',
+    'Moto',
 ];
