@@ -1,1 +1,89 @@
-<h3>MotoController</h3>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="well bs-component">
+            <form class="form-horizontal" method="post">
+                <fieldset>
+                    <legend>Мото</legend>
+                    <div class="form-group">
+                        <label for="inputPrice" class="col-lg-3 control-label">Цена авто</label>
+                        <div class="col-lg-9">
+                            <input type="number" min="100" class="form-control" id="inputPrice" name="price">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEngine" class="col-lg-3 control-label" >Двигатель</label>
+                        <div class="col-lg-9">
+                            <input type="number" min="10" class="form-control" id="inputEngine" name="engine" placeholder="см3">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-3">
+                        </div>
+                        <div class="col-lg-9">
+                            <button type="submit" class="btn btn-primary">Рассчитать</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="bs-component">
+            <table class="table table-striped table-hover ">
+                <thead>
+                <tr>
+                    <th>Цена авто</th>
+                    <th></th>
+                    <th></th>
+                    <th>26.959 $</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>НДС</td>
+                    <td>20%</td>
+                    <td></td>
+                    <td>6.959 $</td>
+                </tr>
+                <tr>
+                    <td>Пошлина</td>
+                    <td>8%</td>
+                    <td></td>
+                    <td>6.959 $</td>
+                </tr>
+                <tr>
+                    <td>Акциз</td>
+                    <td>10 за см<sup>3</sup></td>
+                    <td></td>
+                    <td>6.959 $</td>
+                </tr>
+                <tr >
+                    <td>Налог в пенс. фонд</td>
+                    <td>4%</td>
+                    <td></td>
+                    <td>6.959 $</td>
+                </tr>
+                <tr>
+                    <td>Сертификация и оформление авто</td>
+                    <td></td>
+                    <td></td>
+                    <td>130$</td>
+                </tr>
+                <tr>
+                    <th>Стоимость самой растаможки</th>
+                    <th></th>
+                    <th></th>
+                    <th>6.959 $</th>
+                </tr>
+                <tr class="success">
+                    <th>Цена с растаможкой</th>
+                    <th></th>
+                    <th></th>
+                    <th>26.959 $</th>
+                </tr>
+                </tbody>
+            </table>
+        </div><!-- /example -->
+
+    </div>
+</div>
