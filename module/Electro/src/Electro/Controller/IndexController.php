@@ -9,7 +9,7 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-        if ($_POST){
+        if ($_POST) {
             $price = $_POST['price'];
             $power = $_POST['power'];
             $vat = 20;
@@ -24,12 +24,6 @@ class IndexController extends AbstractActionController
             $result['certific'] = 130;
             $result['cost'] = $result['vat'] + $result['duty'] + $result['excise'] + $result['tax'] + $result['certific'];
             $result['amount'] = $price + $result['cost'];
-
-            //Проверка массивов
-//            echo "<pre>";
-//            print_r($result);
-//            print_r($_POST);
-//            echo "</pre>";
 
             return $result;
         }

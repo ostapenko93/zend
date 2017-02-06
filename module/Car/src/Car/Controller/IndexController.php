@@ -18,22 +18,22 @@ class IndexController extends AbstractActionController
             $duty = 10;
             $tax = 5;
 
-            if ($fuel === 'bensin'){
-                if($engine <= 1500){
+            if ($fuel === 'bensin') {
+                if ($engine <= 1500) {
                     $result['rate'] = 0.067;
-                }elseif ($engine <= 2200 ){
+                } elseif ($engine <= 2200) {
                     $result['rate'] = 0.286;
-                }elseif ($engine <= 3000){
+                } elseif ($engine <= 3000) {
                     $result['rate'] = 0.296;
-                }else{
+                } else {
                     $result['rate'] = 2.372;
                 }
-            }elseif ($fuel == 'diesel'){
-                if($engine <= 1500){
+            } elseif ($fuel == 'diesel') {
+                if ($engine <= 1500) {
                     $result['rate'] = 0.110;
-                }elseif ($engine <= 2500 ){
+                } elseif ($engine <= 2500) {
                     $result['rate'] = 0.351;
-                }else{
+                } else {
                     $result['rate'] = 2.372;
                 }
             }
