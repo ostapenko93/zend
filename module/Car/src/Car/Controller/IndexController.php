@@ -37,6 +37,7 @@ class IndexController extends AbstractActionController
                     $result['rate'] = 2.372;
                 }
             }
+
             $result['price'] = $price;
             $result['vat'] = $price / 100 * $vat;
             $result['duty'] = $price / 100 * $duty;
@@ -46,16 +47,7 @@ class IndexController extends AbstractActionController
             $result['cost'] = $result['vat'] + $result['duty'] + $result['excise'] + $result['tax'] + $result['certific'];
             $result['amount'] = $price + $result['cost'];
 
-
-//            Проверка массивов
-//            echo "<pre>";
-//            print_r($result);
-//            print_r($_POST);
-//            echo "</pre>";
-
             return $result;
         }
-
-
     }
 }
