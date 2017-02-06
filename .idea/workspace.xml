@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b92abf93-3823-48dc-8ec3-a666b5191e07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Bus/view/bus/index/index.phtml" afterPath="$PROJECT_DIR$/module/Bus/view/bus/index/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Car/view/car/index/index.phtml" afterPath="$PROJECT_DIR$/module/Car/view/car/index/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Electro/view/electro/index/index.phtml" afterPath="$PROJECT_DIR$/module/Electro/view/electro/index/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Freight/view/freight/index/index.phtml" afterPath="$PROJECT_DIR$/module/Freight/view/freight/index/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Moto/view/moto/index/index.phtml" afterPath="$PROJECT_DIR$/module/Moto/view/moto/index/index.phtml" />
-    </list>
+    <list default="true" id="b92abf93-3823-48dc-8ec3-a666b5191e07" name="Default" comment="" />
     <ignored path="zend.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,20 +20,7 @@
     <favorites_list name="zend" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Car/view/car/index/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="110" column="86" selection-start-line="110" selection-start-column="86" selection-end-line="110" selection-end-column="86" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -296,18 +276,18 @@
       <workItem from="1486201822339" duration="5352000" />
       <workItem from="1486284985673" duration="27442000" />
       <workItem from="1486373210384" duration="17712000" />
-      <workItem from="1486407745271" duration="2254000" />
+      <workItem from="1486407745271" duration="2596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52760000" />
+    <option name="totallyTimeSpent" value="53102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -720,8 +700,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Car/view/car/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
+        <state relative-caret-position="1504">
           <caret line="110" column="86" selection-start-line="110" selection-start-column="86" selection-end-line="110" selection-end-column="86" />
+          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
